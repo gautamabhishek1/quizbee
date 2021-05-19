@@ -68,3 +68,15 @@
   margin: auto;
 
 }
+
+@media screen and (max-width: 780px) {
+  .score{
+    width: 250px;
+    font-size: 1.3rem;
+  }
+  .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -14,8 +14,8 @@ const QuestionBox = ({question, options, selected}) => {
           onClick={() => {
             setAnswer([text]);
             selected(text);
-           
           }}
+          
         >
           {text}
         </reactbs.Button>
